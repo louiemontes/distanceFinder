@@ -1,0 +1,45 @@
+###
+GET  http://localhost:10000/users
+###
+
+###
+POST http://localhost:10000/users/create
+Content-Type: application/json
+
+{
+  "name": "Dolores O'Riordan"
+}
+###
+
+###
+GET  http://localhost:10000/users/6
+###
+
+###
+PUT http://localhost:10000/users/3
+Content-Type: application/json
+
+{
+  "name": "William Duvall"
+}
+###
+
+###
+DELETE http://localhost:10000/users/6
+###
+
+###
+POST http://localhost:10000/connections/3/5
+Content-Type: application/json
+###
+
+
+###
+GET http://localhost:10000/connections
+Content-Type: application/json
+###
+
+###
+GET http://localhost:10000/distance/1/5
+Content-Type: application/json
+###
